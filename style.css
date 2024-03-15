@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(226, 43%, 10%);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(2, 300px);
+    gap: 20px;
+
+}
+
+.card {
+
+    border-radius: 20px;
+    /* background-color: hsl(235, 46%, 20%); */
+    font-family: rubik;
+
+}
+
+#c1 {
+    grid-row: span 2;
+    border-radius: 20px;
+    background-color: hsl(235, 46%, 20%);
+    height: 610px;
+}
+
+.card01 {
+    background-color: hsl(264, 64%, 52%);
+    height: 60%;
+    border-radius: 20px;
+    box-shadow: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+}
+
+.card02 {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.card02 p:hover {
+    color: rgb(154, 28, 28);
+
+}
+
+
+
+#txt-card02 {
+    font-weight: bold;
+}
+
+.carda2 {
+    /* background-color:hsl(15, 100%, 70%) ; */
+    height: 20%;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+
+}
+
+.carda02 {
+    height: 70%;
+    border-radius: 20px 20px;
+    background-color: hsl(235, 46%, 20%);
+    margin-top: -15px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    gap: 1px;
+    padding: 20px;
+    color: white;
+
+}
+
+#c2 {
+    background-color: hsl(15, 100%, 70%);
+    height: 20%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#c3 {
+    background-color: hsl(195, 74%, 62%);
+    height: 20%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#c4 {
+    background-color: hsl(348, 100%, 68%);
+    height: 20%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#c5 {
+    background-color: hsl(145, 58%, 55%);
+    height: 20%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#c6 {
+    background-color: hsl(264, 64%, 52%);
+    height: 20%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#c7 {
+    background-color: hsl(43, 84%, 65%);
+    height: 20%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+img {
+    height: 10vh;
+    margin: -10px -6px;
+}
+
+#img1 {
+    border-radius: 100%;
+    border: 2px solid;
+    border-color: white;
+}
+
+.txt1 {
+    color: hsl(236, 100%, 87%);
+
+}
+
+.txt2 {
+    color: white;
+    font-size: xx-large;
+    font-weight: 100;
+}
+
+.txt {
+    margin-top: 30px;
+}
+
+.entet{
+    font-size: 18px;
+    font-weight: 100;
+    font-weight: bold;
+}
+.ded{
+  font-size: 18px;
+  font-size: small;
+  color: hsl(236, 100%, 87%);
+}
+.parag{
+    font-size: 46px;
+    font-weight: 100;
+}
